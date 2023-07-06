@@ -80,7 +80,7 @@ Exᴀᴍᴩʟᴇ:- /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 """
 
 #⚠️ Dᴏɴ'ᴛ Rᴇᴍᴏᴠᴇ Oᴜʀ Cʀᴇᴅɪᴛꜱ @ᴩyʀᴏ_ʙᴏᴛᴢ🙏🥲
-    DEV_TXT = """<b><u>Sᴩᴇᴄɪᴀʟ Tʜᴀɴᴋꜱ & Dᴇveloper 
+    DEV_TXT = """<b><u>Sᴩᴇᴄɪᴀʟ Tʜᴀɴᴋꜱ & Developer 
 • ❣️ <a href=http://t.me/searchingshiv>UNKNOWN</a>
 • ❣️ <a href=https://t.me/THE_DS_OFFICIAL>ⓈⒶⓃⒸⒽⒾⓉ ⚡ #मराठी_बजरंग_दल !!</a>
 • ❣️ <a href=https://t.me/R_4_Robo>🅡🅞🅑🅞 5.0⚡</a>
