@@ -57,8 +57,8 @@ Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @THE_DS_OFFICIAL 💞</b>"""
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 ᴍy ɴᴀᴍᴇ : {}
-├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/THE_DS_OFFICIAL>𝗧𝗘𝗔𝗠 𝗣𝗬𝗥𝗢 𝗕𝗢𝗧𝗭</a> 
-├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/searchingshiv>Lɴ Tᴇᴄʜ.ɢɪᴛ</a>     
+├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/THE_DS_OFFICIAL>ⓈⒶⓃⒸⒽⒾⓉ ⚡ #मराठी_बजरंग_दल !!</a> 
+├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/searchingshiv>searchingshiv</a>     
 ╰───────────────⍟ """
 
     HELP_TXT = """
@@ -80,8 +80,7 @@ Exᴀᴍᴩʟᴇ:- /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 """
 
 #⚠️ Dᴏɴ'ᴛ Rᴇᴍᴏᴠᴇ Oᴜʀ Cʀᴇᴅɪᴛꜱ @ᴩyʀᴏ_ʙᴏᴛᴢ🙏🥲
-    DEV_TXT = """<b><u>Sᴩᴇᴄɪᴀʟ Tʜᴀɴᴋꜱ & Dᴇᴠᴇʟᴏᴩᴇʀꜱ</b
-» 𝗛𝗢𝗪 𝗧𝗢 𝗗𝗘𝗣𝗟𝗢𝗬 : <a href=https://youtu.be/GfulqsSnTv4>MᴏTᴇᴄʜ Yᴛ</a>
+    DEV_TXT = """<b><u>Sᴩᴇᴄɪᴀʟ Tʜᴀɴᴋꜱ & Dᴇveloper 
 • ❣️ <a href=http://t.me/searchingshiv>UNKNOWN</a>
 • ❣️ <a href=https://t.me/THE_DS_OFFICIAL>ⓈⒶⓃⒸⒽⒾⓉ ⚡ #मराठी_बजरंग_दल !!</a>
 • ❣️ <a href=https://t.me/R_4_Robo>🅡🅞🅑🅞 5.0⚡</a>
