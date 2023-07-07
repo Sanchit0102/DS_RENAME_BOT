@@ -53,7 +53,7 @@ async def cb_handler(client, query: CallbackQuery):
                 #⚠️ don't change source code & source link ⚠️ #
                 InlineKeyboardButton("❣️ Developer", url="https://t.me/searchingshiv")
                 ],[
-                InlineKeyboardButton("❤️‍🔥 Owner❤️‍🔥", url='https://t.me/R_4_Robo')
+                InlineKeyboardButton("❤️‍🔥 Owner❤️‍🔥", url='https://t.me/THE_DS_OFFICIAL')
                 ],[
                 InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
                 InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
@@ -67,7 +67,7 @@ async def cb_handler(client, query: CallbackQuery):
                 #⚠️ don't change source code & source link ⚠️ #
                 InlineKeyboardButton("❣️ Developer", url="https://t.me/searchingshiv")
                 ],[
-                InlineKeyboardButton("❤️‍🔥 Owner❤️‍🔥", url='https://t.me/R_4_Robo')
+                InlineKeyboardButton("❤️‍🔥 Owner❤️‍🔥", url='https://t.me/THE_DS_OFFICIAL')
                 ],[
                 InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
                 InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
@@ -79,7 +79,7 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("❤️‍🔥 Owner❤️‍🔥", url='https://t.me/R_4_Robo')
+                InlineKeyboardButton("❤️‍🔥 Owner❤️‍🔥", url='https://t.me/THE_DS_OFFICIAL')
                 ],[
                 InlineKeyboardButton("❣️ Developer", url="https://t.me/searchingshiv")
                 ],[
