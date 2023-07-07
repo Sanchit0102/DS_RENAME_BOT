@@ -57,7 +57,7 @@ Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @THE_DS_OFFICIAL 💞</b>"""
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 ᴍy ɴᴀᴍᴇ : {}
-├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/THE_DS_OFFICIAL>ⓈⒶⓃⒸⒽⒾⓉ ⚡ #मराठी_बजरंग_दल !!</a> 
+├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/THE_DS_OFFICIAL>ⓈⒶⓃⒸⒽⒾⓉ ⚡</a> 
 ├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/searchingshiv>searchingshiv</a>     
 ╰───────────────⍟ """
 
