@@ -1,28 +1,4 @@
 """
-Apache License 2.0
-Copyright (c) 2022 @PYRO_BOTZ
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-Telegram Link : https://t.me/PYRO_BOTZ 
-Repo Link : https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT
-License Link : https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT/blob/main/LICENSE
-"""
-
-"""
 
 """
 
@@ -38,13 +14,13 @@ async def start(client, message):
     user = message.from_user
     await db.add_user(client, message)                
     button = InlineKeyboardMarkup([[
-        InlineKeyboardButton("ðŸ‘¨â€ðŸ’» Dá´‡á´ êœ± ðŸ‘¨â€ðŸ’»", callback_data='dev')
+        InlineKeyboardButton("👨‍💻 Dᴇᴠꜱ 👨‍💻", callback_data='dev')
         ],[
-        InlineKeyboardButton('ðŸ“¯ Uá´©á´…á´€á´›á´‡êœ±', url='https://t.me/the_silent_teams'),
-        InlineKeyboardButton('ðŸ’â€â™‚ï¸ Sá´œá´©á´©á´Ê€á´›', url='https://t.me/+FdummGOQm3NlMDBl')
+        InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/the_silent_teams'),
+        InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+FdummGOQm3NlMDBl')
         ],[
-        InlineKeyboardButton('ðŸŽ›ï¸ AÊ™á´á´œá´›', callback_data='about'),
-        InlineKeyboardButton('ðŸ› ï¸ Há´‡ÊŸá´©', callback_data='help')
+        InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about'),
+        InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help')
     ]])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)       
@@ -60,13 +36,13 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.START_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup([[
-                InlineKeyboardButton("ðŸ‘¨â€ðŸ’» Dá´‡á´ êœ± ðŸ‘¨â€ðŸ’»", callback_data='dev')
+                InlineKeyboardButton("👨‍💻 Dᴇᴠꜱ 👨‍💻", callback_data='dev')
                 ],[
-                InlineKeyboardButton('ðŸ“¯ Uá´©á´…á´€á´›á´‡êœ±', url='https://t.me/the_silent_teams'),
-                InlineKeyboardButton('ðŸ’â€â™‚ï¸ Sá´œá´©á´©á´Ê€á´›', url='https://t.me/+FdummGOQm3NlMDBl')
+                InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/the_silent_teams'),
+                InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+FdummGOQm3NlMDBl')
                 ],[
-                InlineKeyboardButton('ðŸŽ›ï¸ AÊ™á´á´œá´›', callback_data='about'),
-                InlineKeyboardButton('ðŸ› ï¸ Há´‡ÊŸá´©', callback_data='help')
+                InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about'),
+                InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help')
             ]])
         )
     elif data == "help":
@@ -74,13 +50,13 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.HELP_TXT,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                #âš ï¸ don't change source code & source link âš ï¸ #
-                InlineKeyboardButton("â£ï¸ Developer", url="https://t.me/searchingshiv")
+                #⚠️ don't change source code & source link ⚠️ #
+                InlineKeyboardButton("❣️ Developer", url="https://t.me/searchingshiv")
                 ],[
-                InlineKeyboardButton("â¤ï¸â€ðŸ”¥ Ownerâ¤ï¸â€ðŸ”¥", url='https://t.me/THE_DS_OFFICIAL')
+                InlineKeyboardButton("❤️‍🔥 Owner❤️‍🔥", url='https://t.me/R_4_Robo')
                 ],[
-                InlineKeyboardButton("ðŸ”’ CÊŸá´êœ±á´‡", callback_data = "close"),
-                InlineKeyboardButton("â—€ï¸ Bá´€á´„á´‹", callback_data = "start")
+                InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
+                InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
             ]])            
         )
     elif data == "about":
@@ -88,13 +64,13 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.ABOUT_TXT.format(client.mention),
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([[
-                #âš ï¸ don't change source code & source link âš ï¸ #
-                InlineKeyboardButton("â£ï¸ Developer", url="https://t.me/searchingshiv")
+                #⚠️ don't change source code & source link ⚠️ #
+                InlineKeyboardButton("❣️ Developer", url="https://t.me/searchingshiv")
                 ],[
-                InlineKeyboardButton("â¤ï¸â€ðŸ”¥ Ownerâ¤ï¸â€ðŸ”¥", url='https://t.me/THE_DS_OFFICIAL')
+                InlineKeyboardButton("❤️‍🔥 Owner❤️‍🔥", url='https://t.me/R_4_Robo')
                 ],[
-                InlineKeyboardButton("ðŸ”’ CÊŸá´êœ±á´‡", callback_data = "close"),
-                InlineKeyboardButton("â—€ï¸ Bá´€á´„á´‹", callback_data = "start")
+                InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
+                InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
             ]])            
         )
     elif data == "dev":
@@ -102,13 +78,13 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.DEV_TXT,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                #âš ï¸ don't change source code & source link âš ï¸ #
-                InlineKeyboardButton("â¤ï¸â€ðŸ”¥ Ownerâ¤ï¸â€ðŸ”¥", url='https://t.me/THE_DS_OFFICIAL')
+                #⚠️ don't change source code & source link ⚠️ #
+                InlineKeyboardButton("❤️‍🔥 Owner❤️‍🔥", url='https://t.me/R_4_Robo')
                 ],[
-                InlineKeyboardButton("â£ï¸ Developer", url="https://t.me/searchingshiv")
+                InlineKeyboardButton("❣️ Developer", url="https://t.me/searchingshiv")
                 ],[
-                InlineKeyboardButton("ðŸ”’ CÊŸá´êœ±á´‡", callback_data = "close"),
-                InlineKeyboardButton("â—€ï¸ Bá´€á´„á´‹", callback_data = "start")
+                InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
+                InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
             ]])          
         )
     elif data == "close":
@@ -119,5 +95,6 @@ async def cb_handler(client, query: CallbackQuery):
         except:
             await query.message.delete()
             await query.message.continue_propagation()
+
 
 
